@@ -1,0 +1,25 @@
+header{
+    padding: 5px;
+    text-align: left;
+    background: #fbda0c;
+    color: #0057ad;
+    font-size: 30px;
+    height: 2.5%;
+    width: auto;
+}
+
+h1 {
+    vertical-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+body{
+    background-color: black;
+}
