@@ -1,4 +1,4 @@
-header{
+header {
     padding: 5px;
     text-align: left;
     background: #fbda0c;
@@ -6,20 +6,29 @@ header{
     font-size: 30px;
     height: 2.5%;
     width: auto;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.header-icon {
+    width: 30px; /* Set the width of your icon */
+    height: 30px; /* Set the height of your icon */
+    margin-right: 10px; /* Adjust the margin between the icon and text */
 }
 
 h1 {
     vertical-align: center;
 }
 
-h2 {
+h2, p {
     color: white;
 }
 
-p {
-    color: white;
-}
-
-body{
-    background-color: black;
+body {
+    background-color: white; /* Set background color to white */
 }
