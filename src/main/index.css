@@ -26,9 +26,35 @@ h1 {
 }
 
 h2, p {
-    color: white;
+    color: black;
 }
 
 body {
     background-color: white; /* Set background color to white */
+}
+
+.main-content {
+    display: flex;
+}
+
+.video-section {
+    width: 66.66%;
+}
+
+.text-section {
+    width: 33.33%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.text-container {
+    cursor: pointer;
+}
+
+.text {
+    display: none;
+}
+
+.text.active {
+    display: block;
 }

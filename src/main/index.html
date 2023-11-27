@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
     <title>Title</title>
 </head>
@@ -13,9 +14,31 @@
     </div>
 </header>
 
-<div class="infobox">
-    <h2>Information Box</h2>
-    <p>Lorem Ipsum Dolor et amet</p>
+<div class="main-content">
+    <div class="video-section">
+        <!-- Replace 'your_video_source.mp4' with the actual source of your video -->
+        <video controls>
+            <source src="resources/media/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="text-section">
+        <div class="text-container" id="text-container">
+            <div class="text" id="text1">
+                <h1>About a Bag</h1>
+                <p>Text about a bag. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <div class="text" id="text2">
+                <h1>About a Lamp</h1>
+                <p>Text about a lamp. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <div class="text" id="text3">
+                <h1>About a Closet</h1>
+                <p>Text about a closet. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
