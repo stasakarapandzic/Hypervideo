@@ -58,3 +58,13 @@ body {
 .text.active {
     display: block;
 }
+
+#video-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto;
+}
