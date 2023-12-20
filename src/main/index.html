@@ -4,7 +4,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <meta charset="UTF-8">
-    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
     <title>Title</title>
     <link rel="icon" type="png" href="resources/media/button.png"/>
@@ -18,7 +17,7 @@
 </header>
 
 <div class="main-content">
-    <div class="video-section">
+    <div id="video-container">
         <!-- Replace 'your_video_source.mp4' with the actual source of your video -->
         <video controls>
             <source src="resources/media/video.mp4" type="video/mp4">
@@ -50,3 +49,14 @@
 </div>
 </body>
 </html>
+<script src="index.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const textContainer = document.getElementById("text-container");
+        const texts = document.querySelectorAll(".text");
+
+        textContainer.addEventListener("click", function () {
+            texts.forEach((text) => text.classList.toggle("active"));
+        });
+    });
+</script>
