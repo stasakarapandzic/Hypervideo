@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
 // moveable Box
 function anime(x,y){
     $('#box1')
-        .animate({'marginLeft': x + 'px'},1000)
-        .animate({'marginTop': y + 'px'},1000);
+        .animate({'marginLeft': x + '%'},1000)
+        .animate({'marginTop': y + '%'},1000);
 }
