@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // moveable Box
-function anime(){
+function anime(x,y){
     $('#box1')
-        .animate({'marginLeft':'20px'},1000)
-        .animate({'marginLeft':'-20px'},1000);
+        .animate({'marginLeft': x + 'px'},1000)
+        .animate({'marginTop': y + 'px'},1000);
 }
