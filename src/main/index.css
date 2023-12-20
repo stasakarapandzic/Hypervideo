@@ -64,16 +64,16 @@ body {
 
 /* Moveable Button */
 .wrap{
-    width:100px;
-    text-align:center;
     z-index: 1;
     position: absolute;
     left: 2%;
     top: 30%;
+
 }
 #box1,#box2,#box3{
     background:#83acdd;
     width:100px;
+    height: 100px;
     box-shadow:2px 2px 3px #C8BBA3;
     text-align:center;
     vertical-align:bottom;
